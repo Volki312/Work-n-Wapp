@@ -1,0 +1,20 @@
+{
+    "manifest_version": 1,
+    "name": "Work-n-Wapp",
+    "version": "1.0",
+  
+    "description": "Mozilla add-on that lets you integrate whatsapp into your work environment",
+  
+    "icons": {
+      "48": "icons/wappify-48.png",
+      "96": "icons/wappify-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["wappify.js"]
+      }
+    ]
+  
+  }
