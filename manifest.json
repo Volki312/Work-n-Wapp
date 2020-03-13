@@ -6,8 +6,8 @@
     "description": "Mozilla add-on that lets you integrate whatsapp into your work environment",
   
     "icons": {
-      "48": "icons/wappify-48.png",
-      "96": "icons/wappify-96.png"
+      "48": "icons/Work-n-Wapp-48.png",
+      "96": "icons/Work-n-Wapp-96.png"
     },
   
     "content_scripts": [
